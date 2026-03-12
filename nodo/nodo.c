@@ -4,11 +4,10 @@
 Nodo* nodo_crear(int dato)
 {
     Nodo* nuevo= (Nodo*)malloc(sizeof(Nodo));
-    if (nuevo==NULL){
-        return NULL;
+    if(nuevo!=NULL){
+        nuevo->dato=dato;
+        n->siguiente=NULL;
     }
-    nuevo->dato=dato;
-    nuevo->siguiente=NULL;
     return nuevo;
 }
 
