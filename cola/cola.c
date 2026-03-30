@@ -9,7 +9,7 @@ Cola* cola_crear()
     return lista_crear();
 }
 
-int cola_vacia(Cola* cola)
+bool cola_vacia(Cola* cola)
 {
     return lista_vacia(cola);
 }
