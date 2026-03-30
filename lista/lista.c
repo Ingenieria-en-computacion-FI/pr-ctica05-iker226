@@ -35,8 +35,8 @@ void lista_insertar_tail(Lista* lista, int dato)
     if(lista->head==NULL){
         lista->head=lista->tail=nuevo;
     }else{
-        nuevo->siguiente = lista->head;
-        lista->head = nuevo;
+        lista->tail->siguiente=nuevo;
+        lista->tail = nuevo;
     }
 }
 
