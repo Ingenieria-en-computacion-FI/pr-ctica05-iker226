@@ -10,7 +10,7 @@ Lista* lista_crear()
     }
     lista->head=NULL;
     lista->tail=NULL;
-    
+    return lista;
 }
 
 int lista_vacia(Lista* lista)
