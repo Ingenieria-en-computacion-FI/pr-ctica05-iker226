@@ -10,7 +10,7 @@ typedef struct {
 
 Lista* lista_crear();
 
-void lista_vacia(Lista* lista);
+int lista_vacia(Lista* lista);
 
 void lista_insertar_head(Lista* lista, int dato);
 
