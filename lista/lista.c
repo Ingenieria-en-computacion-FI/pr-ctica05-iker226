@@ -60,7 +60,7 @@ int lista_eliminar_tail(Lista* lista)
      return -1;
     if(lista->head==lista->tail){
         int dato= lista->head->dato;
-        nodo_detruir(lista->head);
+        nodo_destruir(lista->head);
         lista->head=lista->tail=NULL;
         return dato;
     }
