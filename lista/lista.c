@@ -15,7 +15,10 @@ Lista* lista_crear()
 
 int lista_vacia(Lista* lista)
 {
-    lista->head=lista->tail=NULL;
+    if(lista->head==NULL)
+        return 1;
+    else
+        return -1;
 }
 
 void lista_insertar_head(Lista* lista, int dato)
