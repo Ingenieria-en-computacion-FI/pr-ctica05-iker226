@@ -14,7 +14,7 @@ Lista* lista_crear()
     return lista;
 }
 
-int lista_vacia(Lista* lista)
+bool lista_vacia(Lista* lista)
 {
     if(lista->head==NULL){
         return true;
