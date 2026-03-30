@@ -9,7 +9,7 @@ Pila* pila_crear()
    return lista_crear();
 }
 
-int pila_vacia(Pila* pila)
+bool pila_vacia(Pila* pila)
 {
     return lista_vacia(pila);
 }
