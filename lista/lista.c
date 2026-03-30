@@ -94,6 +94,6 @@ void lista_destruir(Lista* lista)
         while(lista->head!=NULL){
             lista_eliminar_head(lista);
         }
-        lista=NULL;
+        free(lista);
     }
 }
