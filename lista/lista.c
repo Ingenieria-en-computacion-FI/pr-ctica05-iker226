@@ -17,9 +17,9 @@ Lista* lista_crear()
 int lista_vacia(Lista* lista)
 {
     if(lista->head==NULL){
-        return 1;
+        return true;
     }else{
-        return 0;
+        return false;
     }
 }
 
