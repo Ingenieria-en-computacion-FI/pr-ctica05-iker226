@@ -15,8 +15,10 @@ Lista* lista_crear()
 
 int lista_vacia(Lista* lista)
 {
-    while(lista->head!=NULL){
-        lista_eliminar_head(lista)
+    if(lista->head==NULL){
+        return 1;
+    }else{
+        return 0;
     }
 }
 
