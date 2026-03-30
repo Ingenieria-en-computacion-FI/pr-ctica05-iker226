@@ -15,10 +15,9 @@ Lista* lista_crear()
 
 int lista_vacia(Lista* lista)
 {
-    if(lista->head==NULL)
-        return 1;
-    else
-        return -1;
+    while(lista->head!=NULL){
+        lista_eliminar_head(lista)
+    }
 }
 
 void lista_insertar_head(Lista* lista, int dato)
